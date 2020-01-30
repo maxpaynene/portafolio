@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'CrushedStone';
+    src: local('CrushedStone'), url(../../font/Crushed_Stone.otf) format('truetype');
+  }
+
+.fontStyle{
+    font-family: CrushedStone;
+    font-size: 118px;
+    color: white;
+}
