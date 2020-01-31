@@ -13,17 +13,10 @@ const App: React.FC = () => {
           Your browser does not support HTML5 video.
         </video>
       </div>
-      <div style={{
-        position: 'absolute', 
-        left: '50%', 
-        top: '50%',
-        transform: 'translate(-50%, -50%)',
-        textAlign: "center"
-      }}>
+      <div className="verticalCenter">
         <Logo/>
       </div>  
     </div>
-    
   );
   
 }
